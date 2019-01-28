@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+
+{{ if .Site.Data.service.enable }}
+{{ "<!-- Service Section Start -->" | safeHTML }}
+<body>
+    {{ partial "nav.html" .}}
+    <div class="bg-grad col-md-12" style="height:58vh;">
+        <div class="text-service">{{ with .Site.Data.service.image }}<img src="{{ . | absURL }}" alt="bulb" style="height:13vh">{{ end }}
+            {{ with .Site.Data.service.title }}<h1 class="title text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+            {{ with .Site.Data.service.subdes }}<p class="subtitle text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</p>{{ end }}
+            
+        </div>
+    </div>    
+    <section id="service">
+        <div class="container-fluid">
+            <div class="row">
+                {{ range $index, $element:= .Site.Data.service.members }}
+                <div class="col span_1_of_5" style="height:30vh">
+                    {{ $delay := mul $index 300 }}
+                    <div class="service-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                        {{ with .image }}
+                        <div class="service-img">
+                            <img src="{{ . | absURL }}" class="team-pic" alt="service-member" style="height:10vh">
+                            {{ end }}
+                            {{ with .name }}<h3 class="service_name">{{ . }}</h3>{{ end }}
+                            {{ with .description }}<p class="service_text">{{ . }}</p>{{ end }}  
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+</body>
+{{ "<!-- Service Section End -->" | safeHTML }}
+{{ end }}

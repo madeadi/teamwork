@@ -1,0 +1,33 @@
+enable  : true
+title   : OUR SERVICE
+subdes  : we deliver high-quality
+image   : images/service/bulb-white.png
+members  :
+  - name  : Consultation
+    image : images/service/contsultation@2x.png
+    description : Gather requirement. 
+                  Market research.
+                  Development schedule.
+  
+  - name  : Design
+    image : images/service/design@2x.png
+    description : UI/UX development by wireframing the requirements and creating high-fidelity design. 
+                  Design of the server architecture to make it scalable.
+  
+  - name  : Development
+    image : images/service/development@2x.png
+    description : Developing with the most suitable technology.
+                  Discussion with stakeholders during the development process. 
+    
+  - name  : Deployment
+    image : images/service/deployment@2x.png
+    description : Deployment on cloud infrastructure (AWS)
+                  Load testing the system to handle projected traffic. 
+                  Publishing the apps to iOS and Android store.
+    
+  - name  : Maintenance
+    image : images/service/maintenance@2x.png
+    description : Bug fixing. 
+                  New feature development. 
+                  Support technical enquiries.
+    

@@ -1,0 +1,47 @@
+enable  : true
+title   : OUR WORK
+subtitle: Our Clients
+image   : images/icon/code.png
+clientsall:
+  - name  : Ad-it Forward
+    image : images/clients/client-home/client1.png
+    
+  - name  : Deloitte RA Connect
+    image : images/clients/client-home/client2.png
+    
+  - name  : Vaff
+    image : images/clients/client-home/client3.png
+
+  - name  : Club Vivre
+    image : images/clients/client-home/client4.png
+    
+  - name  : Immunoscape Cytographer
+    image : images/clients/client-home/client5.png
+    
+  - name  : Brother
+    image : images/clients/client-home/client6.png
+
+clientsmobile:
+  - name  : Ad-it Forward
+    image : images/clients/client1.png
+    
+  
+  - name  : Deloitte RA Connect
+    image : images/clients/client2.png
+    
+    
+  - name  : Vaff
+    image : images/clients/client3.png
+    
+clientsweb:
+  - name  : Club Vivre
+    image : images/clients/client4.png
+    
+  - name  : Immunoscape Cytographer
+    image : images/clients/client5.png
+    
+    
+  - name  : Brother
+    image : images/clients/client6.png
+    
+  

@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+<body>
+    {{ partial "nav.html" .}}
+
+    <div class="bg-grad col-md-12" style="height:58vh;">
+        <div class="text-service">{{ with .Site.Data.client.image }}<img src="{{ . | absURL }}" alt="bulb" style="height:13vh">{{ end }}
+            {{ with .Site.Data.client.title }}<h1 class="title text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+        </div>
+    </div>    
+    <section id="clients">
+        <div class="container-fluid">
+            {{ with .Site.Data.client.subtitle }}<h1 class="title text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+            <div class="section group">
+                    {{ range $index, $element:= .Site.Data.client.clientsmobile }}
+                    <div class="bg-light col span_1_of_3" style="height:30vh">
+                    {{ $delay := mul $index 300 }}
+                    <div class="our-clientsmobile wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                        {{ with .image }}
+                        <div class="our-img">
+                            <img src="{{ . | absURL }}" class="team-pic" alt="our-clientsmobile" style="height:20vh">
+                            {{ end }}
+                            {{ with .name }}<p class="our_name">{{ . }}</p>{{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="section group">
+                {{ range $index, $element:= .Site.Data.client.clientsweb }}
+                <div class="bg-light col span_1_of_3" style="height:30vh">
+                {{ $delay := mul $index 300 }}
+                <div class="our-clients wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                    {{ with .image }}
+                    <div class="our-img">
+                        <img src="{{ . | absURL }}" class="team-pic" alt="our-clientsmobile" style="height:20vh">
+                        {{ end }}
+                        {{ with .name }}<p class="our_name">{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</body>
+
+

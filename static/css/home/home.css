@@ -1,0 +1,193 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+#page-1{
+    margin: 16px 0px 0px 0px !important;
+}
+.bg-gradient{
+    background: linear-gradient(to top, #AC54D9, #2e80ff, #2e80ff )!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 70vh;
+    float: left;
+}
+#home-title{
+    color: #fff;
+    margin-top: 50%;
+    margin-left: -30%;
+}
+.bg-blue {
+    background-color: #2158c1!important;
+}
+.bg-check-out{
+    background-color: #2e80ff !important;
+    justify-content: center;
+    align-items: center;
+}
+.home-service{
+    text-align: center;
+	padding-top: 8%;
+	color: #fff !important;
+}
+/* animate css */
+#containerHape{
+    height: 78vh;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2e80ff, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2e80ff, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#sliderHolder{
+    height: 69vh;
+    width: 29vh;
+    display:block;
+    overflow:hidden;
+    position:relative;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+
+.asset {
+  top:0; right:0; bottom:0; left:0;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    display:none;
+    background-repeat: no-repeat;
+    z-index:1;
+}
+
+.slide {
+  position: absolute;
+  display: block;
+  height: 62vh;
+  margin-left: 2px;
+  margin-top: 1px;
+}
+
+#phones9 {
+  display: block;
+  height: 69vh;
+  top: 23px;
+  left: 33px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.5%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+    
+.btn-xl {
+    font-size: 11px;
+}
+.btn {
+    border-radius: 300px;
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-family: 'Exo 2', sans-serif;
+    
+} 
+.btn-outline {
+    color: white;
+    border: 1px solid;
+    border-color: white;
+  }
+.tombol{
+    margin: 5px;
+    padding-left: 30%;
+}
+/* .our-clients{
+        padding-top: 7%;
+} */
+.clients-logo-slider{
+    
+
+}
+.home-service {
+    text-align: center;
+    padding-top: 8%;
+    color: #fff !important;
+    margin-left: 31%;
+}
+.home-clients{
+    color: #2158c1;
+}
+
+.slider {
+    width: 50% !important;
+   /* margin: 100px auto;*/
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  /*width: 100%;*/
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+/* .slick-slide img {
+width: 100% !important;
+} */
+
+.col-md-12{
+    padding-top: 10px;
+}
+.center{
+    padding-top: 41px;
+}

@@ -1,0 +1,12 @@
+enable  : true
+title   :  We Create Beautiful Mobile Apps for You! 
+image   : images/home/phone-s9.png
+animateLogo:
+  - image : images/home/sc1-min.png
+  - image : images/home/sc2-min.png
+  - image : images/home/sc3-min.png
+  - image : images/home/sc4-min.png
+  - image : images/home/sc5-min.png
+  - image : images/home/sc6-min.png
+  - image : images/home/sc7-min.png
+  

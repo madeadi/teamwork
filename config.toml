@@ -1,0 +1,84 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "SERVICE"
+        url     = "/service"
+        weight  = 2
+    [[menu.nav]]
+        name    = "OUR WORK"
+        url     = "/ourwork"
+        weight  = 3
+    [[menu.nav]]
+        name    = "ABOUT US"
+        url     = "/about"
+        weight  = 4
+    [[menu.nav]]
+        name    = "HIRING!"
+        url     = "/hiring"
+        weight  = 5
+    [[menu.nav]]
+        name    = "BLOG"
+        url     = "/blog"
+        weight  = 6
+    [[menu.nav]]
+        name    = "CONTACT"
+        url     = "/contact"
+        weight  = 7
+
+# Site Params
+[params]
+    home = "HOME"
+    logo = "images/logo-white-landscape@2x.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Airspace Hugo theme"
+    author = "Themefisher"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+[params .service]
+    service = "service"
+    img1 = "assets/Image 1@2x.png"
+    img2 = "assets/Image 2@2x.png"
+    img3 = "assets/UX-UI@2x.png"
+    img4 = "assets/bulb.png"
+    img5 = "assets/code.png"
+    img6 = "chevron-with-circle-down@2x.png"
+    
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/slider.jpg"
+        heading = "HI, MY NAME IS JONATHON & I AM A"
+        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        btn     = true
+        btnText = "Download More"
+        btnURL  = "https://themefisher.com/"
+        [[params.banner.flipText]]
+            title   = "DESIGNER"
+        [[params.banner.flipText]]
+            title   = "DEVELOPER"
+        [[params.banner.flipText]]
+            title   = "FATHER"
+
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = true
+        title   = "Latest Works"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = true
+        title   = "SOME OF OUR FEATURES WORKS"
+        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    

@@ -1,0 +1,28 @@
+enable  : true
+title   : Why We are Different
+description: >
+  We are a technology consultant company based in Bali, Indonesia
+  <br>
+  Started in 2016 as a spin off of Spinroam Technology (Singapore)
+  <br>
+  We help companies in the area of 
+    <ul>
+      <li>Product consultation and development (mobile + web)</li>
+      <li>IT Manpower</li>
+      <li>Management of cloud infrastructure (AWS, Azure)</li>
+    </ul>
+  Our clients ranging from startups, small-medium business, and Fortune 500
+  We have worked with clients from Indonesia, Singapore, Australia, Malaysia and Cambodia
+image   : images/about/about-company.jpg
+aboutItem:
+  - title : Why Choose Us
+    description: > 
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+
+  - title : What You Get
+    description: > 
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+
+  - title : Meet The Energy
+    description: > 
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
