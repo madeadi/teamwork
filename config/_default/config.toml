@@ -1,6 +1,5 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "PT Taksu Teknologi"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -11,23 +10,11 @@ theme = "timer-hugo"
     [[menu.nav]]
         name    = "SERVICE"
         url     = "/service"
-        weight  = 2
-    [[menu.nav]]
-        name    = "OUR WORK"
-        url     = "/ourwork"
-        weight  = 3
+        weight  = 2    
     [[menu.nav]]
         name    = "ABOUT US"
         url     = "/about"
-        weight  = 4
-    [[menu.nav]]
-        name    = "HIRING!"
-        url     = "/hiring"
-        weight  = 5
-    [[menu.nav]]
-        name    = "BLOG"
-        url     = "/blog"
-        weight  = 6
+        weight  = 4    
     [[menu.nav]]
         name    = "CONTACT"
         url     = "/contact"
@@ -39,14 +26,14 @@ theme = "timer-hugo"
     logo = "images/logo-white-landscape@2x.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Airspace Hugo theme"
+    description = "Mobile Apps Developer in Indonesia"
     author = "Themefisher"
     # Google Analitycs
     googleAnalitycsID = "Your ID"
 
 [params .service]
     service = "service"
-    img1 = "a ssets/Image 1@2x.png"
+    img1 = "assets/Image 1@2x.png"
     img2 = "assets/Image 2@2x.png"
     img3 = "assets/UX-UI@2x.png"
     img4 = "assets/bulb.png"
@@ -57,10 +44,10 @@ theme = "timer-hugo"
     # Banner Section
     [params.banner]
         enable  = true
-        heading = "We Create Beautiful Mobile Apps for You!"
+        heading = "We Create Beautiful Mobile Apps!"
         btn     = true
         btnText = "Check out our work"
-        btnURL  = "http://localhost:1313/ourwork/"
+        btnURL  = "/ourwork/"
 
     # Portfolio Section On Homepage
     [params.portfolio]

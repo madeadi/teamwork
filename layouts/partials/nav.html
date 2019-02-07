@@ -11,10 +11,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                            <a href="/get-quotes" class="btn btn-Qoutes btn-xl js-scroll-trigger ">Get Quotes</a>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
-                        </li>
+                            <a href="/get-quotes" class="btn btn-Qoutes btn-xl js-scroll-trigger ">Get Quotes</a>                        
+                        </li>                            
                         {{ range .Site.Menus.nav }}
                         <li class="nav-item">
                             <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>

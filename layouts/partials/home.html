@@ -20,7 +20,7 @@
                         {{ with .Site.Data.home.title }}<h2 id="home-title">{{ . }}</h2>{{ end }}
                     </div>          
                 <div class="tombol">
-                    <a href="http://localhost:1313/ourwork/" id="tombol2" class="btn btn-outline btn-xl js-scroll-trigger ">Check out our work<img  cLass="arrow" src="images/icon/chevron-small-right@2x.png" alt="arrow" style="height:2vh"></a>
+                    <a href="/ourwork/" id="tombol2" class="btn btn-outline btn-xl js-scroll-trigger ">Check out our work<img  cLass="arrow" src="images/icon/chevron-small-right@2x.png" alt="arrow" style="height:2vh"></a>
                 </div>
             </div>
             
@@ -36,7 +36,7 @@
                             </div>
                         </div>
 
-                    <div id="services"><a href="http://localhost:1313/service/">
+                    <div id="services"><a href="/service/">
                        
                             {{ range .Site.Data.service.copy }}
                             <img class="asset-service" id="copy-ourservice" src="{{ .image | absURL }}" alt="animateLogo">

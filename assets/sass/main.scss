@@ -1,34 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Roboto');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
 banner-servicebody{
   font-family: 'Exo 2', sans-serif;
 }
 
-/* NAVBAR CSS  */
-.navbar{
-  background-color: #2e80ff;
-}
-.nav-link{
-  color: #fff !important;
-}
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
-}
-.navbar-nav{
-  text-align: center;
-}
-.btn-Qoutes{
-  background-color: #fff !important;
-}
-
 
 /* HOME CONTENT LEFT.GRID OF TWO,HAPE ANIMASI,BOTTOM  */
-.home-left{
-  padding:0 !important;
-  height:100vh;
-}
-#containerHape{
-  height: 88vh;
-  background-image: linear-gradient(to top, #6a11cb 0%, #2e80ff 100%);
-}
 
 /*  grid of 2 */
 .span_1_of_2 {
@@ -74,18 +54,16 @@ left: 33px;
   color: #fff;
   margin-top: 24%;
 }
-.tombol{
-  height: 10vh;
-  margin: 0px;
-  margin-top:21px;
-  background-color: rgba(0, 0, 0, 0.2);
 
-}
 #tombol2{
   margin-left: 35% !important;
   margin-top: 19px;
-  
 }
+#tombol2:hover {
+  color: #aaa;
+  border-color: #aaa;
+}
+
 .btn-xl {
   font-size: 11px;
 }
@@ -554,29 +532,16 @@ color: #2e80ff;
     height: 10vh;
     background-color: #2e80ff;
     color: #fff;
-}
-.client-banner{
-  height: 38vh;
-  margin-left: -87px;
-}
-.banner {
-  height: 42vh;
-  background-image: url(/images/clients/ourwork-bg.png);
-}
-
-}
-/* STOP PAGES CLIENT  */
-
-/* CONTACT PAGES  */
-/* .map-area{
-  margin-top: 30%;
-} */
-/* Mobile responsive */
-/* @media only screen and (max-width: 480px) {
-  .map{
-
   }
-} */
+  .client-banner{
+    height: 38vh;
+    margin-left: -87px;
+  }
+  .banner {
+    height: 42vh;
+    background-image: url(/images/clients/ourwork-bg.png);
+  }
+}
 
-
-
+@import "_header";
+@import "_home";

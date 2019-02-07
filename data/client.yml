@@ -1,6 +1,6 @@
 enable  : true
 title   : OUR WORK
-subtitle: Our Clients
+subtitle: Clients
 image   : images/clients/Ourword-illustration.png
 clientsall:
   - name  : Ad-it Forward
