@@ -1,11 +1,17 @@
-/* NAVBAR CSS  */
 .navbar{
-    background-color: #2e80ff;
+    background-color: $color-primary;
     font-family: 'Exo 2', sans-serif;
 
     .nav-item {
         margin: 0 1rem;
         text-transform: uppercase;
+    }
+
+    .navbar-brand {        
+        img {
+            width: 235px;
+            margin-left: 20px;
+        }
     }
 }
 .nav-link{

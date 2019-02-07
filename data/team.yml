@@ -1,53 +1,54 @@
 enable   : true
-title    : TAKSU TEKNOLOGI FULLTEAM
-subtitle : Taksu Technology is a software house that is controlled by a group of super humans from the Asgardian planet
-image    : images/team/taksu-a;ll team.png
+title    : A Group of Tech Enthusiasts
+subtitle : We are a group of tech enthusiasts based in Bali, 
+  ready to serve your needs wherever you are.
+image    : images/team/taksu-teknologi-team-member.png
 
 members  :
   - name  : Made Adi
     image : images/team/iconface-01.png
-    designation : CEO, Project Manager
+    designation : Managing Director
 
   - name  : Surya Diputra 
     image : images/team/iconface-03.png
-    designation : CEO, Project Manager
+    designation : Project Manager
 
   - name  : Reny Delima
     image : images/team/iconface-05.png
-    designation : CEO, Project Manager
+    designation : HR and Admin
   
   - name  : Yayan Artha
     image : images/team/iconface-02.png
-    designation : CEO, Project Manager
+    designation : Mobile Lead
 
   - name  : Oka Sentana
     image : images/team/iconface-06.png
-    designation : CEO, Project Manager
+    designation : Office Exec
   
   - name  : Suci Sukawana
     image : images/team/iconface-04.png
-    designation : CEO, Project Manager
+    designation : Full-stack Dev
 
   - name  : Arianta Santanu
     image : images/team/iconface-07.png
-    designation : CEO, Project Manager
+    designation : Web Dev
   
-  - name  : Wira MAhardika
+  - name  : Wira Mahardika
     image : images/team/iconface-08.png
-    designation : CEO, Project Manager
+    designation : Web Dev
 
   - name  : Agus Suarya W.
     image : images/team/iconface-09.png
-    designation : CEO, Project Manager
+    designation : Web Dev
   
   - name  : Hendra Ekaparman
     image : images/team/iconface-10.png
-    designation : CEO, Project Manager
+    designation : Web Dev
 
   - name  : Puguh Sudarma
     image : images/team/iconface-11.png
-    designation : CEO, Project Manager
+    designation : Mobile Dev
   
   - name  : Puja Astawa
     image : images/team/iconface-12.png
-    designation : CEO, Project Manager
+    designation : UI/UX

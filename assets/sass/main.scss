@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Roboto');
 
+@import "_variables";
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -90,7 +92,7 @@ left: 33px;
 }
 .subtitle{
   text-align: left;
-  color: #1b479b;
+  color: $color-grey-dark;
 }
 .text-center{
   padding-top: 15px;
@@ -427,13 +429,6 @@ color: #2e80ff;
     background-color: #C0C0C0;
 }
 
-/* FOOTER PAGES */
-
-#footer{
-  background-color: #1b479b;
-  color: #fff;
-  padding-top: 10px;
-}
 
 /* responsive css */
 @media only screen and (max-width: 480px) {
@@ -545,3 +540,4 @@ color: #2e80ff;
 
 @import "_header";
 @import "_home";
+@import "_footer";

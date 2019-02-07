@@ -8,22 +8,22 @@ theme = "timer-hugo"
 [menu]
     # Navbar Menus
     [[menu.nav]]
-        name    = "SERVICE"
+        name    = "Services"
         url     = "/service"
         weight  = 2    
     [[menu.nav]]
-        name    = "ABOUT US"
+        name    = "About Us"
         url     = "/about"
         weight  = 4    
     [[menu.nav]]
-        name    = "CONTACT"
+        name    = "Contact"
         url     = "/contact"
         weight  = 7
 
 # Site Params
 [params]
     home = "HOME"
-    logo = "images/logo-white-landscape@2x.png"
+    logo = "images/taksu-teknologi-logo.png"
     dateFormat = "6 January 2006"
     # Meta data
     description = "Mobile Apps Developer in Indonesia"
