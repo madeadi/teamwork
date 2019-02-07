@@ -1,47 +1,33 @@
 enable  : true
 title   : OUR WORK
 subtitle: Our Clients
-image   : images/icon/code.png
+image   : images/clients/Ourword-illustration.png
 clientsall:
   - name  : Ad-it Forward
     image : images/clients/client-home/client1.png
-    
+    subtitle : Mobile Apps, CRM, Business Intelligence, 
+               Cloud Infrastructure, IT Manpower, Support 
+    description : ADF is a Singapore-based startup in the advertising space. Upon 4 months of the launch, it gathers more than 100,000 users and 13,000 active users daily. Using ADF apps, users can watch ads, play games to earn points, and exchange the points to rewards. 
+                  We helped the client to conceptualise, develop the product, and maintaining the infrastructure which we deployed on AWS. We use React Native for the mobile apps and Laravel for the web server. For the servers, we design them such that it can grow/shrink based on the traffic.
+                  We also deploy a Business Intelligence (BI) tool so that the ADF marketing team can create beautiful dashboards and reports by making use the millions of data that the system gathers every day.
+    url         : /ourwork/adf
   - name  : Deloitte RA Connect
     image : images/clients/client-home/client2.png
-    
-  - name  : Vaff
-    image : images/clients/client-home/client3.png
-
+    subtitle : Mobile Apps, CRM, Business Intelligence, Cloud Infrastructure 
+    description : Deloitte is a global accounting and consultancy firm. We created an app for their Risk Advisory (RA) business unit in South-East Asia. With RA Connect mobile app, Deloitte’s RA employees can register for RA events, get in touch with other employees, and know the affairs in other countries. 
+                  We helped the client to conceptualise, develop, and deploy the product into Microsoft Azure infra. We use React Native for the mobile apps and Laravel for the web server.
+                  The app is equipped with Event Management module allowing event organisers to scan employee’s QR code to take attendance.
+    url         : /ourwork/deloitte
   - name  : Club Vivre
     image : images/clients/client-home/client4.png
-    
+    subtitle : Mobile Apps, CRM, Cloud Infrastructure
+    description : Club Vivre (CV) is a Singapore startup. With CV, a customer can get a professional chef to cook for the customer at his house.
+                  We helped client to develop the mobile apps with React Native; React JS for the admin dashboard; Express for the API server. 
+                  We also developed a chat system so that customer, chef and a concierge can communicate easily from the app or browser.
+    url         : /ourwork/club_vivre
   - name  : Immunoscape Cytographer
     image : images/clients/client-home/client5.png
-    
-  - name  : Brother
-    image : images/clients/client-home/client6.png
-
-clientsmobile:
-  - name  : Ad-it Forward
-    image : images/clients/client1.png
-    
-  
-  - name  : Deloitte RA Connect
-    image : images/clients/client2.png
-    
-    
-  - name  : Vaff
-    image : images/clients/client3.png
-    
-clientsweb:
-  - name  : Club Vivre
-    image : images/clients/client4.png
-    
-  - name  : Immunoscape Cytographer
-    image : images/clients/client5.png
-    
-    
-  - name  : Brother
-    image : images/clients/client6.png
-    
-  
+    subtitle : Web App, Cloud Infrastructure
+    description : Immunoscape is a Singapore biotechnology company. Their proprietary technology is able to analyse a cell sample, output a 20-dimensional digital data, and visualise the output. 
+                  We helped Immunoscape created a beautiful web app to make their technology accessible to their big pharmaceutical clients from all around the world. We made this possible by using our expertise on AWS TechnologyAWS Containerisation, AWS Batch, RDS, S3, Cloudwatch, EC2, SNS, etc.
+    url         : /ourwork/imunoscape

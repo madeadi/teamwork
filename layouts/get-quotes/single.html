@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+
+{{ "<!-- Company Description Section Start -->" | safeHTML }}
+<body>
+    {{ partial "nav" .}}
+   
+    <div class="header-hiring p-5">
+        <div class="col-lg-12">
+            {{ with .Site.Data.hiring.title }}<h2>{{ . }}</h2>{{ end }}
+            {{ with .Site.Data.hiring.subtitle }}<p>{{ . }}</p>{{ end }}
+        </div> 
+    </div>
+    
+    <section class="lis-of-hiring">
+        <div class="container-fluid">
+            
+            <div class="row pt-5 pb-5">
+
+                {{ range $index, $element := .Site.Data.hiring.item }}
+                 {{ $delay := mul $index 300 }}
+                        
+
+                <div class="col-md-6 pad-bot mb-4">
+                     <div class="jumbotron">
+                       
+                        {{ with .category }}
+                        <h5 class="lead text-muted wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">{{ . }}</h5>
+                        {{ end }}
+
+                        {{ with .title }}
+                        <h3 class="display-4">{{ . }}</h3>
+                        <hr class="my-4">
+                        {{ end }}
+
+                                  
+
+                        {{ with .description }}<p class="content_sub">{{ .| safeHTML }}</p>{{ end }} 
+
+                     </div>
+                </div>
+
+                {{ end }}
+
+            </div>
+            
+        </div>
+    </section>
+
+    {{ partial "footer.html" .}}
+  
+</body>
+{{ "<!--  Company Feature Section End -->" | safeHTML }}

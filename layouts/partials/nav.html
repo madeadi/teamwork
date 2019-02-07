@@ -1,7 +1,6 @@
-<section class="top-bar animated-header">
-    <!-- <div class="row">
-        <div class="col-md-12"> -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- <section class="top-bar animated-header"> -->
+
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="{{ .Site.BaseURL }}">
                     <img src="{{ .Site.Params.logo | absURL }}" alt="logo">
                 </a>
@@ -12,6 +11,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
+                            <a href="/get-quotes" class="btn btn-Qoutes btn-xl js-scroll-trigger ">Get Quotes</a>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
                         </li>
@@ -24,4 +24,4 @@
             </nav>
         <!-- </div>
     </div> -->
-</section>
+<!-- </section> -->

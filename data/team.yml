@@ -1,38 +1,53 @@
-enable  : true
-title   : MEET THE TEAM
-members  :
-  - name  : Jonathon Andrew
-    image : images/team/team-1.jpg
-    designation : CEO, Project Manager
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    facebook    : https://www.fb.com/themefisher
-    twitter     : https://www.twitter.com/themefisher
-    linkedIn    : https://www.linkedin.com/themefisher
-    googleplus  : https://plus.google.com/themefisher
-  
-  - name  : Jesmin Martina
-    image : images/team/team-2.jpg
-    designation : CEO, Project Manager
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    facebook    : https://www.fb.com/themefisher
-    twitter     : https://www.twitter.com/themefisher
-    linkedIn    : https://www.linkedin.com/themefisher
-    googleplus  : https://plus.google.com/themefisher
-  
-  - name  : Deu John
-    image : images/team/team-3.jpg
-    designation : CEO, Project Manager
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    facebook    : https://www.fb.com/themefisher
-    twitter     : https://www.twitter.com/themefisher
-    linkedIn    : https://www.linkedin.com/themefisher
-    googleplus  : https://plus.google.com/themefisher
+enable   : true
+title    : TAKSU TEKNOLOGI FULLTEAM
+subtitle : Taksu Technology is a software house that is controlled by a group of super humans from the Asgardian planet
+image    : images/team/taksu-a;ll team.png
 
-  - name  : Anderson Martin
-    image : images/team/team-4.jpg
+members  :
+  - name  : Made Adi
+    image : images/team/iconface-01.png
     designation : CEO, Project Manager
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    facebook    : https://www.fb.com/themefisher
-    twitter     : https://www.twitter.com/themefisher
-    linkedIn    : https://www.linkedin.com/themefisher
-    googleplus  : https://plus.google.com/themefisher
+
+  - name  : Surya Diputra 
+    image : images/team/iconface-03.png
+    designation : CEO, Project Manager
+
+  - name  : Reny Delima
+    image : images/team/iconface-05.png
+    designation : CEO, Project Manager
+  
+  - name  : Yayan Artha
+    image : images/team/iconface-02.png
+    designation : CEO, Project Manager
+
+  - name  : Oka Sentana
+    image : images/team/iconface-06.png
+    designation : CEO, Project Manager
+  
+  - name  : Suci Sukawana
+    image : images/team/iconface-04.png
+    designation : CEO, Project Manager
+
+  - name  : Arianta Santanu
+    image : images/team/iconface-07.png
+    designation : CEO, Project Manager
+  
+  - name  : Wira MAhardika
+    image : images/team/iconface-08.png
+    designation : CEO, Project Manager
+
+  - name  : Agus Suarya W.
+    image : images/team/iconface-09.png
+    designation : CEO, Project Manager
+  
+  - name  : Hendra Ekaparman
+    image : images/team/iconface-10.png
+    designation : CEO, Project Manager
+
+  - name  : Puguh Sudarma
+    image : images/team/iconface-11.png
+    designation : CEO, Project Manager
+  
+  - name  : Puja Astawa
+    image : images/team/iconface-12.png
+    designation : CEO, Project Manager

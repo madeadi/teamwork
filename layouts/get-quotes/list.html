@@ -1,0 +1,114 @@
+{{ partial "header.html" . }}
+
+{{ "<!-- Company Description Section Start -->" | safeHTML }}
+<body>
+    {{ partial "nav" .}}
+   
+    <div class="header-quotes p-5">
+        <div class="col-lg-12 ml-5">
+            <h2>What we can do for you?</h2>
+            <p>Want to build something but you can't build it yourself? tell us what you need!</p>
+        </div> 
+    </div>
+    
+    <section class="lis-of-hiring">
+        <div class="container">
+            
+            <div class="row pb-5">
+
+               
+
+                <div class="col-md-12 pad-bot">
+                     <div class="jumbotron">
+                        
+                        <form>
+                            <div class="form-group row mb-2">
+                                <label for="inputName" class="col-sm-4 col-form-label">Your Name</label>
+                                <div class="col-sm-8">
+                                  <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-2">
+                                <label for="inputCompany" class="col-sm-4 col-form-label">Your Company</label>
+                                <div class="col-sm-8">
+                                  <input type="text" class="form-control" id="inputCompany" placeholder="Your Company">
+                                </div>
+                            </div>
+                          <div class="form-group row mb-2">
+                            <label for="inputEmail" class="col-sm-4 col-form-label">Email</label>
+                            <div class="col-sm-8">
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                          </div>
+                          <div class="form-group row mb-2">
+                            <label for="inputPhone" class="col-sm-4 col-form-label">Your Phone Number</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="inputPhone" placeholder="">
+                            </div>
+                          </div>
+                          
+                          <fieldset class="form-group">
+                            <div class="row">
+                              <legend class="col-form-label col-sm-4 pt-0">What will you build</legend>
+                              <div class="col-sm-8">
+                                <div class="form-check mb-2">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="gridRadios1">
+                                    Mobile Apps?
+                                  </label>
+                                </div>
+                                <div class="form-check mb-2">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                  <label class="form-check-label" for="gridRadios2">
+                                    Web Apps?
+                                  </label>
+                                </div>
+                                <div class="form-check mb-2">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                  <label class="form-check-label" for="gridRadios3">
+                                    Bussiness Strategy?
+                                  </label>
+                                </div>
+                                <div class="form-check mb-2">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option4" disabled>
+                                  <label class="form-check-label" for="gridRadios3">
+                                    Others
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="form-group row mb-2">
+                            <label for="inputRequirement" class="col-sm-4 col-form-label">tell us your requirement</label>
+                            <div class="col-sm-8">
+                              <textarea type="text" class="form-control" id="inputRequirement" placeholder=""></textarea>
+                            </div>
+
+                          </fieldset>
+                          
+
+                            
+                            
+                          
+                          <div class="form-group row">
+                            <div class="col-sm-10">
+                              <button type="submit" class="btn btn-primary">Submit Quotes</button>
+                            </div>
+                          </div>
+                        </form>
+                          
+                        
+
+                     </div>
+                </div>
+
+               
+            </div>
+            
+        </div>
+    </section>
+
+    {{ partial "footer.html" .}}
+  
+</body>
+{{ "<!--  Company Feature Section End -->" | safeHTML }}

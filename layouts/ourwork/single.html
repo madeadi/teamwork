@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+{{ if .Site.Data.service.enable }}
+{{ "<!-- Service Section Start -->" | safeHTML }}
+<body>
+    {{partial "nav.html" . }}
+    <section>   
+        <div class="banner col-md-12">
+            <div class="row">
+                <div class="client-page-image">
+                        <a href="{{ .Permalink }}">
+                            {{ with .Params.image }}<img class="client-banner" src="{{ . | absURL }}" alt="client-banner"/>{{ end }}
+                        </a>
+                </div>
+            </div>
+        </div>
+           
+        <div class="content-client col-md-12">
+            <div class="row">
+                <div class="content-bg col-md-6">
+                    <div class="client-left">
+                        <div class="text-left">
+                            <h2>{{ .Title }}</h2>
+                            <p>{{ .Description }}</p>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="col-md-6">
+                    <div class="client-right">
+                        <div class="text-right">
+                            {{ .Content }}
+                        </div>
+                        
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ "<!-- Footer Section Start -->" | safeHTML }}
+        <div col-md-12>
+            <footer id="footer-client">
+                <div class="container-fluid">
+                    <div class="row content-justify-between">
+                        <div class="col-md-12 text-center">
+                            <p class="copyright">COPYRIGHT ©
+                                <span>
+                                    <script>document.write(new Date().getFullYear())</script>
+                                </span> PT TAKSU TEKNOLOGI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    {{ "<!-- footer section end -->" | safeHTML }} 
+</body>
+{{ "<!-- Service Section End -->" | safeHTML }}
+{{ end }}
+

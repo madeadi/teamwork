@@ -43,9 +43,10 @@ theme = "timer-hugo"
     author = "Themefisher"
     # Google Analitycs
     googleAnalitycsID = "Your ID"
+
 [params .service]
     service = "service"
-    img1 = "assets/Image 1@2x.png"
+    img1 = "a ssets/Image 1@2x.png"
     img2 = "assets/Image 2@2x.png"
     img3 = "assets/UX-UI@2x.png"
     img4 = "assets/bulb.png"
@@ -56,18 +57,10 @@ theme = "timer-hugo"
     # Banner Section
     [params.banner]
         enable  = true
-        bgImage = "images/slider.jpg"
-        heading = "HI, MY NAME IS JONATHON & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        heading = "We Create Beautiful Mobile Apps for You!"
         btn     = true
-        btnText = "Download More"
-        btnURL  = "https://themefisher.com/"
-        [[params.banner.flipText]]
-            title   = "DESIGNER"
-        [[params.banner.flipText]]
-            title   = "DEVELOPER"
-        [[params.banner.flipText]]
-            title   = "FATHER"
+        btnText = "Check out our work"
+        btnURL  = "http://localhost:1313/ourwork/"
 
     # Portfolio Section On Homepage
     [params.portfolio]

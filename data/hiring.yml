@@ -1,0 +1,20 @@
+enable   : true
+title    : We Are Hiring!
+subtitle : Want to team up with young, talented & funny developers. Join in on the us now!
+image    : images/team/team-foto.png
+
+item    :
+  - category    : Backend Enginer
+    title       : IT Programmer Backend Developer
+    description : >
+      Candidate must possess at least Diploma, Bachelor's Degree, Master's Degree/Post Graduate Degree in Engineering (Computer/Telecommunication), Computer Science/Information Technology or equivalent. Required language(s): Bahasa Indonesia, English. At least 1 Year(s) of working experience 
+
+  - category    : Enginer
+    title       : IT Programmer React Native Developer
+    description : >
+      Candidate must possess at least Diploma, Bachelor's Degree, Master's Degree/Post Graduate Degree in Engineering (Computer/Telecommunication), Computer Science/Information Technology or equivalent. Required language(s): Bahasa Indonesia, English. At least 1 Year(s) of working experience 
+
+  - category    : Enginer
+    title       : IT Programmer React Native Developer
+    description : >
+      Candidate must possess at least Diploma, Bachelor's Degree, Master's Degree/Post Graduate Degree in Engineering (Computer/Telecommunication), Computer Science/Information Technology or equivalent. Required language(s): Bahasa Indonesia, English. At least 1 Year(s) of working experience 
